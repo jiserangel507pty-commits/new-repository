@@ -1,0 +1,10 @@
+{
+  "name": "sombra-cero-online-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor de salas online y tabla de puntuaciones para SOMBRA CERO",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"cors": "^2.8.5", "express": "^4.21.2", "socket.io": "^4.8.1"}
+}
